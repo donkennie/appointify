@@ -11,3 +11,9 @@
 ::-webkit-scrollbar{
     @apply hidden
 }
+
+.grid-cols-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem; /* optional gap */
+  }
