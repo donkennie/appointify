@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
+
+
+*{
+    font-family: Outfit;
+}
 
 :root{
     --primary: #5f6fff
@@ -15,5 +21,5 @@
 .grid-cols-auto {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem; /* optional gap */
+    gap: 1rem; 
   }
